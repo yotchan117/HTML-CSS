@@ -252,11 +252,35 @@ footer {
     width: 100%;
   }
 
+  .blog-item {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .blog-image {
+    width: 48%;
+  }
+
   .category {
     display: none;
   }
 
+  .pagination {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
   .sidebar {
     width: 100%;
+  }
+
+  .instagram-box {
+    width: 46%;
+    padding-top: 46%;
+    margin: 2%;
+  }
+
+  .instagram-box:nth-child(odd) {
+    margin: 2%;
   }
 }
