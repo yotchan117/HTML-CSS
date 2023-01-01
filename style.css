@@ -225,3 +225,38 @@ footer {
 .footer-text {
   color: #fff;
 }
+
+@media screen and (max-width: 425px) {
+  header {
+    width: 100%;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .nav-list-item {
+    display: block;
+  }
+
+  .main-visual-content {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .blog {
+    width: 100%;
+  }
+
+  .category {
+    display: none;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+}
